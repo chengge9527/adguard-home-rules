@@ -47,7 +47,7 @@ for rule in rules1 + rules2:
     if stripped and not stripped.startswith(('!', '#', '[')):
         combined_rules[stripped] = None
 
-# 设置东八时区 UTC+8
+# 设置东八时区 UTC+8:00
 def get_utc_eight():
     utc_now = datetime.datetime.utcnow()
     utc_eight = utc_now + datetime.timedelta(hours=8)
@@ -55,7 +55,7 @@ def get_utc_eight():
 
 # 准备文件头信息
 total_rules = len(combined_rules)
-timestamp = get_utc_eight().strftime("%Y-%m-%d %H:%M:%S UTC+8")
+timestamp = get_utc_eight().strftime("%Y-%m-%d %H:%M:%S UTC+8:00")
 header = f"""! Title: Merged AdGuard Rules
 ! Description: Combined rules from AdGuard DNS filter and anti-AD
 ! Sources:
