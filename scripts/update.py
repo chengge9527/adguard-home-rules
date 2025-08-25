@@ -55,7 +55,7 @@ def get_utc_eight():
 
 # 准备文件头信息
 total_rules = len(combined_rules)
-timestamp = get_utc_eight().strftime("%Y-%m-%d %H:%M:%S UTC+8:00")
+timestamp = get_utc_eight().strftime("%Y-%m-%d %H:%M:%S UTC+08:00")
 header = f"""! Title: Merged AdGuard Rules
 ! Description: Combined rules from AdGuard DNS filter and anti-AD
 ! Sources:
