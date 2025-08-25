@@ -2,8 +2,8 @@ name: Update Rules
 
 on:
   schedule:
-    - cron: '0 */8 * * *'
-    workflow_dispatch:
+    - cron: '0 */8 * * *'  # 每8小时执行一次
+  workflow_dispatch:     # 允许手动触发
 
 jobs:
   update-rules:
