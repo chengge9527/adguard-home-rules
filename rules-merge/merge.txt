@@ -4,7 +4,7 @@
 !   https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
 !   https://anti-ad.net/easylist.txt
 ! Total rules: 153,350
-! Updated: 2025-08-25 01:01:58 UTC
+! Updated: 2025-08-25 10:27:07 UTC+8
 !
 ||bid-algorix.com^
 ||loopmeedge.net^
