@@ -4,7 +4,7 @@
 !   https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
 !   https://anti-ad.net/easylist.txt
 ! Total rules: 164,932
-! Updated: 2025-10-22 16:16:08 UTC+08:00
+! Updated: 2025-10-23 00:13:33 UTC+08:00
 !
 ||sharebang.com^
 ||prebid.scope3.com^
