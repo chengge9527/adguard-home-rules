@@ -4,7 +4,7 @@
 !   https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
 !   https://anti-ad.net/easylist.txt
 ! Total rules: 148,305
-! Updated: 2025-12-09 00:14:52 UTC+8
+! Updated: 2025-12-09 08:53:27 UTC+8
 !
 ||maxesads.com^
 ||mossfast.com^
